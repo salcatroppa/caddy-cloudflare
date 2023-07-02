@@ -32,7 +32,7 @@ jobs:
         id: check
         uses: lucacome/docker-image-update-checker@v1
         with:
-          base-image: library/caddy:2
+          base-image: docker.io/caddy:2
       
       - name: Checkout repository
         uses: actions/checkout@v3
