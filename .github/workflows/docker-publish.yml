@@ -33,7 +33,6 @@ jobs:
         uses: lucacome/docker-image-update-checker@v1
         with:
           base-image: library/caddy:2
-          image: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
       
       - name: Checkout repository
         uses: actions/checkout@v3
