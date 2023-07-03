@@ -6,7 +6,7 @@ A [Caddy](https://github.com/caddyserver/caddy-docker) Docker image with just th
 
 ## Details
 
-This image it's built nightly via GitHub Actions and it can be found on [Docker Hub](https://hub.docker.com/r/salcatroppa/caddy).
+This image is built nightly via GitHub Actions and it can be found on [Docker Hub](https://hub.docker.com/r/salcatroppa/caddy).
 
 ```bash
 docker pull salcatroppa/caddy:2-cloudflare
